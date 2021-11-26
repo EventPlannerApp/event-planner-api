@@ -13,10 +13,6 @@ namespace EventPlannerAPI.Controllers
     [Route("[controller]")]
     public class EventController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         [HttpGet]
         public Event Get()
